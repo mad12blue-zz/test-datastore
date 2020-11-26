@@ -27,6 +27,6 @@ export const StoragePlaceGroup = new Factory()
         return {
             'errors': { hubId: [ `The value '${hubId}' is not valid.` ] },
             'status': 400,
-            'title': 'One or more validation errors occurred.'
+            'title': 'One or more validation errors occurred.',
           };
     })
